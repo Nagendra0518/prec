@@ -1,0 +1,1 @@
+print('textline'[6])
