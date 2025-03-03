@@ -115,9 +115,9 @@
 # b = int(input("enter a number: "))
 # c = int(input("enter a number: "))  
 # if a > b:
-#     print(a," is greater than ",b)
+#     print(a)
 # else:
-#     print(b," is greater than ",a)
+#     print(b)
 
 # if a > b > c:
 #     print(a)

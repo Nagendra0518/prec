@@ -9,9 +9,9 @@
 # print(bool(b))
 
 # c = 10 + 1j
-# print(int(c))
-# print(float(c))
-# print(bool(c))
+# print(int(c)) #no
+# print(float(c)) #no
+# print(bool(c))  #yes
 
 # d= True
 # print(int(d))

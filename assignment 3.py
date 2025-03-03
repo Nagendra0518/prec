@@ -6,8 +6,8 @@
 
 # x = 1
 # while x < 11:
-#     print(x,end = " ") 
-#     x = x + 1  
+#     print(x,end = " ")
+#     x += 1 
 
 # reverse order
 
@@ -16,12 +16,19 @@
 #     print(x,end = " ") 
 #     x = x - 1
 
-# even numbers from 2 to 101
+# even numbers from 0 to 101
 
 # x = 0
-# while x < 102:
+# while x < 101:
 #     print(x,end = " ") 
 #     x = x + 2 
+
+# odd numbers from 1 to 100
+
+# x = 1
+# while x < 100:
+#     print(x,end = " ") 
+#     x = x + 2
 
 # odd numbers from 99 to 1
 
@@ -32,14 +39,14 @@
 
 #  sum of 1 to 10 numbers
 
-# x = 0
-# a = 1
-# while a < 11:
-#     x = x + a 
-#     a = a + 1
-# print(x)    
+# x = 1
+# s = 0
+# while x < 11:
+#     s = s + x
+#     x = x + 1
+# print(s)    
     
-#In list print 1 to 10 numbers
+# In list print 1 to 10 numbers
     
 # x = [1,2,3,4,5,6,7,8,9,3,4,5,6,7,77,88,55,4]
 # y = 0
@@ -79,25 +86,29 @@
 #    print(x[y],end = " ") 
 #    y = y - 1 
    
+# print("-----------------------")
+   
 # x = [1,2,3,4,5,6,7,8,9,3,4,5,6,7,77,88,55]
 # y = 16
 # while y >= 0: 
 #    print(x[y],end = " ") 
 #    y = y - 1 
    
-# alternate elements in reverse order
+# alternate elements in reverse order in list
    
 # x = [1,2,3,4,5,6,7,8,9,3,4,5,6,7,77,88,55]
+# lt = []
 # y = 16
 # while y > -1: 
-#    print(x[y],end = " ") 
+#    lt += [x[y]] 
 #    y = y - 2    
+# print(lt)
 
 # sum of all elements in the list
 
 # x = [1,2,3,4,5]
 # print(sum(x))
-#    OR
+#    #OR
 # s = 0
 # a = 0
 # while a < len(x):
@@ -127,11 +138,21 @@
 #     y += 1
 # print(list)
 
+# storing even elements in list
+# x = [1,2,3,50,7,8,50,4,3,5,6,64,3,3,3,44,3,3,34]
+# lt = []
+# y= 0
+# while y < len(x):
+#     if x[y] % 2 == 0:
+#         lt += [x[y]]
+#     y += 1
+# print(lt)
+
 # sum of alternate elements from the list
 
 # x = [1,2,1,3,1,3,1,6]
 # s = 0
-# a =  0
+# a = 0
 # while a < len(x): 
 #     s += x[a]
 #     a += 2
@@ -179,8 +200,8 @@
 # sum of odd numbers from 1 to 50
 
 # a = 1
-# sum = 1
-# while a < 50:
+# sum = 0
+# while a < 51:
 #     sum += a
 #     a += 2 
 # print(sum)  
@@ -188,11 +209,11 @@
 #  odd index even numbers
 
 # x = [10,2,30,5,4,6,7,8,9,7,7,6,55,8]
-# i = 1
-# while i < len(x):
-#     if x[i] % 2 == 0:
-#         print(x[i],end = " ")
-#     i += 2
+# y = 1
+# while y < len(x):
+#     if x[y] % 2 == 0:
+#         print(x[y],end = " ")
+#     y += 2
   
 #  odd index odd numbers  
     
@@ -317,15 +338,26 @@
 # while y <= 10:
 #     print(f"{x} * {y} = {x * y}")
 #     y += 1
+
+#odd number odd position in list
+# x = [12,3,4,6,7,78,89,5,4,6,9,9,3]
+# y = 1
+# lt= []
+# while y < len(x):
+#     if x[y] % 2 == 1:
+#         lt += [x[y]]
+#     y += 2
+# print(lt) 
+ 
  
 # positive numbers
 
 # x = [1,2,3,5,-4,4,-4]
-# a = 0 
-# while a < len(x):
-#     if x[a] >= 0:
-#         print(x[a],end=" ")
-#     a += 1
+# y = 0 
+# while y < len(x):
+#     if x[y] >= 0:
+#         print(x[y],end=" ")
+#     y += 1
  
 # negative numbers
 
@@ -421,3 +453,6 @@
 # for i in range (0,len(y)):         
 #     if y[i] % 2 == 0 and y[i] > 0:
 #         print(y[i],end = " ") 
+
+
+
