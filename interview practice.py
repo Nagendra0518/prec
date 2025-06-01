@@ -103,8 +103,6 @@
 # print("count is:",count)
 
 
-
-
 # str1 = "ramesh"
 # list1 = list(str1)
 # for i in range(len(list1)):
@@ -200,5 +198,17 @@
 #     print()
  
 
-        
-        
+#prime number checking     
+# n = int(input("enter the number:"))
+# ref = False
+# if n <= 1:
+#     print("not a prime number")
+# else:
+#     for i in range(2,n):
+#         if n % i ==0:
+#             ref = True
+#             break
+#     if ref:
+#         print("it is a prime number")
+#     else:
+#         print("not a prime number")

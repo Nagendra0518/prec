@@ -58,32 +58,86 @@
 
 #  fibanocci series 
 
-x = 0
-y = 1
-n = 1
-l = []
-while n <= 10:
-    if n % 2 == 0:
-        print(x,end = " ")
-    l = l + [x]
-    x,y = y,x + y
-    n = n + 1
-print(l)
+# x = 0
+# y = 1
+# n = 1
+# l = []
+# while n <= 10:
+#     if n % 2 == 0:
+#         print(x,end = " ")
+#     l = l + [x]
+#     x,y = y,x + y
+#     n = n + 1
+# print(l)
     
-
-
+#------For Loops----------------
     
-    
+#1 to 10 numbers
+# for i in range(1,10):
+#     print(i, end=" ") 
+
+# sum of first 10 numbers
+# s = 0
+# for i in range(10):
+#     s += i
+# print(s)
+
+#alternate elements 
+# for i in range(0,11,2):
+#     print(i,end=" ")
+
+#alternate elements in list
+# a = [1,2,3,4,5,6,7,8,9,5,3,2]
+# for i in range(0,len(a),2):
+#     print(a[i],end=" ")
+
+#sum of all elements in list
+# a = [1,2,3,4,5,6,7,8,9,5,3,2]
+# print(sum(a))
+# s = 0
+# for i in a:
+#     s += i
+# print(s)
+
+#odd index even numbers
+# a = [1,2,3,4,5,6,7,8,9,5,3,2]
+# for i in range(1,len(a),2):
+#     if a[i] % 2 == 0:
+#         print(a[i],end=" ")
+
+#reverse the list
+# a = [1,2,3,4,5]
+# # print(len(a))
+# # for i in range(-1,-6,-1):
+# for i in range(4,-1,-1):
+#     print(a[i],end=" ")
+
+#using while loop
+# a = [1,2,3,4,5]
+# b=4
+# while b >= 0:
+#        print(a[b],end=" ")
+#        b = b - 1
 
 
-
-
-
-
-
-
-
-
-
-
-    
+#Design colors
+from turtle import *
+import colorsys as cs
+pensize(2)
+tracer(2)
+h= 0.2
+bgcolor('black')
+lt(80)
+fd(250)
+lt(180)
+lt(80)
+for i in range(330):
+    c=cs.hsv_to_rgb(h,1,1)
+    color(c)
+    h+=0.004
+    fd(i)
+    rt(50)
+    rt(40)
+    fd(500)
+    rt(120)
+done()

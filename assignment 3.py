@@ -427,19 +427,10 @@
 #     b = c
 #     count += 1
 # print(sum)
-      
-
- 
- 
  
 # for i in range(0,101,2):
 #     print(i,end=" ")
  
-# a = 0
-# for i in x:
-#     a = a + i
-# print(a)
-
 
 # x = [10, 20, 30, 40, 50]
 # sum = 0
