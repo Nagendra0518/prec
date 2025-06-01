@@ -3,7 +3,7 @@ import getpass
 class ATM:
     def __init__(self):
         self.users = {
-            "1234": {"pin": "4321", "balance": 10000},
+            "1234": {"pin": "4321", "balance": 1000},
             "5678": {"pin": "8765", "balance": 2000}
         }
         self.current_user = None
