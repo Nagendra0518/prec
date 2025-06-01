@@ -4,7 +4,7 @@ class ATM:
     def __init__(self):
         self.users = {
             "1234": {"pin": "0518", "balance": 1000},
-            "5678": {"pin": "8765", "balance": 2000}
+            "5678": {"pin": "0518", "balance": 2000}
         }
         self.current_user = None
 
